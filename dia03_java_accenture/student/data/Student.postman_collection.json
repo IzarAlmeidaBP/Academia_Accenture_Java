@@ -1,0 +1,96 @@
+{
+  "info": {
+    "_postman_id": "3ddc05b2-e7d5-49df-8d98-2b5cf3dfee1d",
+    "name": "Student",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "30577115"
+  },
+  "item": [
+    {
+      "name": "Listar Todos os Estudantes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/student",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "student"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Criar um Estudante",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/student",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "student"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Atualizar um Estudante",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"izar Atualizado\",\r\n    \"age\": 22,\r\n    \"email\": \"izar@accenture.com\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/student",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "student"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Deletar um Estudante",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/student/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "student",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
